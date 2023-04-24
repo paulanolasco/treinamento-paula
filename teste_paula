@@ -18,13 +18,10 @@
                         <input type="number" id="resultado" class="form-control p-3" disabled>
                     </div>
                 </div>
-                <div class="card-footer text-center p-3">
-                    <button class="btn btn-secondary" onclick="soma()">somar</button>
-                    <button class="btn btn-secondary" onclick="subtrai()">subtrair</button>
-                    <button class="btn btn-secondary" onclick="multiplica()">multiplicar</button>
-                    <button class="btn btn-secondary" onclick="divide()">dividir</button>
-                    <button class="btn btn-secondary" onclick="limpa()">Limpar</button>
-                </div>
+             
             </div>
         </div>
     </main>
+
+
+    
