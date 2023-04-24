@@ -1,4 +1,30 @@
-hasdjhkjdaskjsdahk
-hskdhkjasdhjk
-jaldhlddahd
-adjlkasdlkas
+    <main>
+        <div class="container pt-5 d-flex justify-content-center">
+            <div class="card card-out-line-info col-sm-6 shadow-lg">
+                <div class="card-header"><h4>Calculadora</h4></div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="form-group mb-3 col-6">
+                            <label class="form-label">Primeiro número:</label>
+                            <input type="number" id="num1" class="form-control p-2">
+                        </div>
+                        <div class="form-group mb-3 col-6">
+                            <label class="form-label">Segundo número:</label>
+                            <input type="number" id="num2" class="form-control p-2">
+                        </div>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label class="form-label">Resultado:</label>
+                        <input type="number" id="resultado" class="form-control p-3" disabled>
+                    </div>
+                </div>
+                <div class="card-footer text-center p-3">
+                    <button class="btn btn-secondary" onclick="soma()">somar</button>
+                    <button class="btn btn-secondary" onclick="subtrai()">subtrair</button>
+                    <button class="btn btn-secondary" onclick="multiplica()">multiplicar</button>
+                    <button class="btn btn-secondary" onclick="divide()">dividir</button>
+                    <button class="btn btn-secondary" onclick="limpa()">Limpar</button>
+                </div>
+            </div>
+        </div>
+    </main>
